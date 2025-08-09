@@ -7,23 +7,18 @@ color: rgb(255, 255, 255);
 
  }
  ol{
+    
 background-color:rgb(3, 100, 0);
 padding-right: 90px;
 margin-left: 50px;
 margin-right: 150px;
 }
 
-ul{
+ul{ 
 
 background-color:rgb(3, 100, 0);
 padding-right: 90px;
 margin-left: 50px;
 margin-right: 150px;
-}
-
-img{
-
-padding-right: -90px;
-size: 840px;
 
 }
