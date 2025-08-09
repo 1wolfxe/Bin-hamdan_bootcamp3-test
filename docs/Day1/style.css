@@ -1,25 +1,62 @@
 h2{
 color: blueviolet;
+ font-size: 28px;
+    margin-bottom: 15px;
 }
  body{
-color: rgb(255, 255, 255);
-    background-color:black
-
+   font-family: Arial, sans-serif;
+  color: azure;
+   text-align: left;
+    padding: 40px;
+    line-height: 1.6;
+    background-color:black  
  }
  ol{
-
+   list-style-type: decimal;
+    padding-left: 30px;
 background-color:rgb(3, 100, 0);
 padding-right: 90px;
 margin-left: 50px;
-margin-right: 150px;
+margin-right: 500px;
 }
 
 ul{ 
-
+    list-style-type: disc;
+    padding-left: 30px;
 background-color:rgb(3, 100, 0);
 padding-right: 90px;
 margin-left: 50px;
 margin-right: 150px;
 
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(3,100, 0);
+    border: 1.5px solid #1eff00;
+    padding: 8px 30px;
+     margin-left: 50px; ;   
+     border-radius: 8px;
+    transition: 0.3s;
+    display: inline-flexbox;
+   
+}
+a:hover {
+    background-color:rgb(3, 100, 0);
+    color: white;
+box-shadow: 0px 2px 0px #00b7ff;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+     display: inline-block;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
 
